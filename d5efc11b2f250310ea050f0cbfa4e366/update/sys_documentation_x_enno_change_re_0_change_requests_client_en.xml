@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="client" label="Client" language="en" table="x_enno_change_re_0_change_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>client</element>
+            <help/>
+            <hint/>
+            <label>Client</label>
+            <language>en</language>
+            <name>x_enno_change_re_0_change_requests</name>
+            <plural>Clients</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aamir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-23 11:58:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Client</sys_name>
+            <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+            <sys_update_name>sys_documentation_x_enno_change_re_0_change_requests_client_en</sys_update_name>
+            <sys_updated_by>aamir.mushtaq</sys_updated_by>
+            <sys_updated_on>2026-06-23 11:58:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

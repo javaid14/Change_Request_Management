@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cf11d5132fa50310ea050f0cbfa4e3a3" extends="task" label="Change Requests" max_length="40" name="x_enno_change_re_0_change_requests" type="collection">
+        <element label="Target date" max_length="40" name="target_date" type="glide_date"/>
+        <element label="Blocked" max_length="40" name="blocked" type="boolean"/>
+        <element choice="1" label="Commercial classification" max_length="40" name="commercial_classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unpaid" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Paid" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Product owner" max_length="32" name="product_owner" reference="sys_user" type="reference"/>
+        <element label="Product" max_length="32" name="product" reference="cmdb_application_product_model" type="reference"/>
+        <element label="BRD or SOW reference" max_length="32" name="brd_or_sow_reference" reference="dms_document" type="reference"/>
+        <element choice="1" label="CR State" max_length="40" name="cr_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Deployed" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="Impact Assessment" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="In UAT" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Commercial Review" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="In Build" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Rejected" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="12" value="12"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Ready for Production" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Cassification" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Aging" max_length="40" name="aging" type="integer"/>
+        <element label="Dependencies" max_length="4000" name="dependencies" reference="change_request" type="glide_list"/>
+        <element label="PM" max_length="32" name="pm" reference="sys_user" type="reference"/>
+        <element label="Client" max_length="32" name="client" reference="customer_account" type="reference"/>
+        <element label="BA" max_length="32" name="ba" reference="sys_user" type="reference"/>
+        <element choice="3" label="CR Category" max_length="40" name="cr_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Urgent fix" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Product improvement" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Enhancement" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Client customization" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Regulatory or compliance change" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Internal" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Scoring or rules change" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Configuration change" sequence="9" value="9"/>
+            </choice>
+        </element>
+        <element label="Blocked reason" max_length="40" name="blocked_reason" type="string"/>
+        <element label="Parent project" max_length="32" name="parent_project" reference="pm_project" type="reference"/>
+        <element choice="1" label="UAT Status" max_length="40" name="uat_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In UAT" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Pending sign off" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Issues found" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Not started" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Passed and signed off" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Ready for UAT" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element choice="1" label="Production status" max_length="40" name="production_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ready for production" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Deployed" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Verified" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Not deployed" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Technical owner" max_length="32" name="technical_owner" reference="sys_user" type="reference"/>
+    </element>
+</database>

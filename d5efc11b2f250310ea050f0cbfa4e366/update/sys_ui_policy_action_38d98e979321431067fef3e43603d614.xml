@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>blocked_reason</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aamir.mushtaq</sys_created_by>
+        <sys_created_on>2026-06-23 15:09:15</sys_created_on>
+        <sys_id>38d98e979321431067fef3e43603d614</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>blocked_reason</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_ui_policy_action_38d98e979321431067fef3e43603d614</sys_update_name>
+        <sys_updated_by>aamir.mushtaq</sys_updated_by>
+        <sys_updated_on>2026-06-23 15:09:15</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <ui_policy display_value="Blocked Reason Mandatory">cd99c6579321431067fef3e43603d630</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=38d98e979321431067fef3e43603d614"/>
+</record_update>

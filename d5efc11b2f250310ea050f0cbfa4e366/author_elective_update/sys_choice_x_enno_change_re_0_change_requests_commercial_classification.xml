@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="commercial_classification" table="x_enno_change_re_0_change_requests" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>commercial_classification</element>
+            <name>x_enno_change_re_0_change_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aamir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-23 12:13:38</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>commercial_classification</sys_name>
+            <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+            <sys_update_name>sys_choice_x_enno_change_re_0_change_requests_commercial_classification</sys_update_name>
+            <sys_updated_by>aamir.mushtaq</sys_updated_by>
+            <sys_updated_on>2026-06-23 12:13:38</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>commercial_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unpaid</label>
+            <language>en</language>
+            <name>x_enno_change_re_0_change_requests</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>aamir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-23 12:14:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-23 14:51:59</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>commercial_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paid</label>
+            <language>en</language>
+            <name>x_enno_change_re_0_change_requests</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>aamir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-23 12:14:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-23 14:52:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

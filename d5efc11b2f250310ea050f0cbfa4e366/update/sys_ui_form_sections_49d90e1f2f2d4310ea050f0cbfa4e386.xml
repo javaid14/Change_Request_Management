@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="49d90e1f2f2d4310ea050f0cbfa4e386" sys_domain="global" table="x_enno_change_re_0_change_requests" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-23 15:08:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01d90e1f2f2d4310ea050f0cbfa4e38d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_enno_change_re_0_change_requests" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">49d90e1f2f2d4310ea050f0cbfa4e386</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-23 15:08:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-23 15:08:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09d90e1f2f2d4310ea050f0cbfa4e38e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_enno_change_re_0_change_requests" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">49d90e1f2f2d4310ea050f0cbfa4e386</sys_ui_form>
+            <sys_ui_section caption="Ownership" display_value="Ownership" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">c5d90e1f2f2d4310ea050f0cbfa4e37c</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-23 15:08:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-23 15:08:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09d90e1f2f2d4310ea050f0cbfa4e395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_enno_change_re_0_change_requests" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">49d90e1f2f2d4310ea050f0cbfa4e386</sys_ui_form>
+            <sys_ui_section caption="Commercial" display_value="Commercial" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">81d90e1f2f2d4310ea050f0cbfa4e37f</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-23 15:08:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-23 15:08:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9d90e1f2f2d4310ea050f0cbfa4e39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_enno_change_re_0_change_requests" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">49d90e1f2f2d4310ea050f0cbfa4e386</sys_ui_form>
+            <sys_ui_section caption="Requirements &amp; Links" display_value="Requirements &amp; Links" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">8dd90e1f2f2d4310ea050f0cbfa4e380</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-23 15:08:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-23 15:08:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85d90e1f2f2d4310ea050f0cbfa4e3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_enno_change_re_0_change_requests" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">49d90e1f2f2d4310ea050f0cbfa4e386</sys_ui_form>
+            <sys_ui_section caption="UAT Production" display_value="UAT Production" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">89d90e1f2f2d4310ea050f0cbfa4e382</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-23 15:08:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-23 15:08:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59d90e1f2f2d4310ea050f0cbfa4e3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_enno_change_re_0_change_requests" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">49d90e1f2f2d4310ea050f0cbfa4e386</sys_ui_form>
+            <sys_ui_section caption="Closure" display_value="Closure" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">85d90e1f2f2d4310ea050f0cbfa4e384</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-23 15:08:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_enno_change_re_0_change_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-23 15:08:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49d90e1f2f2d4310ea050f0cbfa4e386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_enno_change_re_0_change_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+            <sys_update_name>sys_ui_form_sections_49d90e1f2f2d4310ea050f0cbfa4e386</sys_update_name>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-23 15:08:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

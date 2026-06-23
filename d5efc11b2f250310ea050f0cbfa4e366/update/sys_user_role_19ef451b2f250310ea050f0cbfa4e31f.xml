@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>CR Agent Role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>Crqm745mtALke5/qvYKVA3dKgrHr2ftR6XswPDwnma8=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_enno_change_re_0.cr agent</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>cr agent</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>javaid.mir</sys_created_by>
+        <sys_created_on>2026-06-23 10:55:48</sys_created_on>
+        <sys_id>19ef451b2f250310ea050f0cbfa4e31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_enno_change_re_0.cr agent</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_user_role_19ef451b2f250310ea050f0cbfa4e31f</sys_update_name>
+        <sys_updated_by>javaid.mir</sys_updated_by>
+        <sys_updated_on>2026-06-23 10:55:48</sys_updated_on>
+    </sys_user_role>
+</record_update>
