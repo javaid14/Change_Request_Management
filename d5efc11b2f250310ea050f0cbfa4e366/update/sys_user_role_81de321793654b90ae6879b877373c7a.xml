@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <federated_id>dSCZv4CYgo4Fb1ujI3OaTXutHyBLvYgjibbIkAS27u4=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_enno_change_re_0.routing_rules_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>routing_rules_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-23 19:00:29</sys_created_on>
+        <sys_id>81de321793654b90ae6879b877373c7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_enno_change_re_0.routing_rules_user</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_user_role_81de321793654b90ae6879b877373c7a</sys_update_name>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-23 19:00:29</sys_updated_on>
+    </sys_user_role>
+</record_update>

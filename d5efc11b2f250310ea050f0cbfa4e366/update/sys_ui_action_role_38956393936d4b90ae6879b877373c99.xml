@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>javaid.mir</sys_created_by>
+        <sys_created_on>2026-06-23 22:20:30</sys_created_on>
+        <sys_id>38956393936d4b90ae6879b877373c99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.change_manager</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_ui_action display_value="Create Production Change">97852717936d4b90ae6879b877373c5b</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_38956393936d4b90ae6879b877373c99</sys_update_name>
+        <sys_updated_by>javaid.mir</sys_updated_by>
+        <sys_updated_on>2026-06-23 22:20:30</sys_updated_on>
+        <sys_user_role display_value="change_manager" name="change_manager">ca55cd759f2002002920bde8132e70b4</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

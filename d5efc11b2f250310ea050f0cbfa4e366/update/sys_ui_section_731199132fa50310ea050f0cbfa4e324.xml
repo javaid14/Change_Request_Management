@@ -4,111 +4,181 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:55:19</sys_created_on>
-            <sys_id>fc7496132fed4310ea050f0cbfa4e3d2</sys_id>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>f3c6cc3393ad8310ae6879b877373cdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:55:19</sys_updated_on>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent_project</element>
+            <element>short_description</element>
             <position>1</position>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:55:19</sys_created_on>
-            <sys_id>b47496132fed4310ea050f0cbfa4e3d4</sys_id>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>73c6cc3393ad8310ae6879b877373cdd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:55:19</sys_updated_on>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_case</element>
+            <position>2</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>ffc6cc3393ad8310ae6879b877373cdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_test_plan</element>
+            <position>3</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>7fc6cc3393ad8310ae6879b877373cde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>target_date</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:55:19</sys_created_on>
-            <sys_id>347496132fed4310ea050f0cbfa4e3d5</sys_id>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>fbc6cc3393ad8310ae6879b877373cdf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:55:19</sys_updated_on>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:55:19</sys_created_on>
-            <sys_id>b07496132fed4310ea050f0cbfa4e3d6</sys_id>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>7bc6cc3393ad8310ae6879b877373ce0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:55:19</sys_updated_on>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:55:19</sys_created_on>
-            <sys_id>307496132fed4310ea050f0cbfa4e3d7</sys_id>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>f7c6cc3393ad8310ae6879b877373ce1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:55:19</sys_updated_on>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>client</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:55:19</sys_created_on>
-            <sys_id>bc7496132fed4310ea050f0cbfa4e3d7</sys_id>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>77c6cc3393ad8310ae6879b877373ce2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:55:19</sys_updated_on>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>product</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:55:19</sys_created_on>
-            <sys_id>3c7496132fed4310ea050f0cbfa4e3d8</sys_id>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>f3c6cc3393ad8310ae6879b877373ce3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:55:19</sys_updated_on>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cr_state</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:55:19</sys_created_on>
-            <sys_id>b87496132fed4310ea050f0cbfa4e3d9</sys_id>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>73c6cc3393ad8310ae6879b877373ce4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:55:19</sys_updated_on>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pending_e_sign</element>
+            <position>10</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>ffc6cc3393ad8310ae6879b877373ce4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_known_issues_accepted</element>
+            <position>11</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>7fc6cc3393ad8310ae6879b877373ce5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_evidence</element>
+            <position>12</position>
+            <sys_created_by>javaid.mir</sys_created_by>
+            <sys_created_on>2026-06-24 18:53:26</sys_created_on>
+            <sys_id>fbc6cc3393ad8310ae6879b877373ce6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">731199132fa50310ea050f0cbfa4e324</sys_ui_section>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 18:53:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

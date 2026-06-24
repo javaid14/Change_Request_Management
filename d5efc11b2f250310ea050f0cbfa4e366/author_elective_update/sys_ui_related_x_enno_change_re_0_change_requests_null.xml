@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_enno_change_re_0_change_requests" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Change Requests - Default view" name="x_enno_change_re_0_change_requests" related_list="NULL" sys_domain="global" view="Default view">ee221e632fa943104046b44bcfa4e352</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>task_activity.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>amir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-24 10:23:49</sys_created_on>
+            <sys_id>e2221e632fa943104046b44bcfa4e3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>amir.mushtaq</sys_updated_by>
+            <sys_updated_on>2026-06-24 10:23:49</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Change Requests - Default view</calculated_name>
+            <filter/>
+            <name>x_enno_change_re_0_change_requests</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>amir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-24 10:23:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee221e632fa943104046b44bcfa4e352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Change Requests - Default view</sys_name>
+            <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+            <sys_update_name>sys_ui_related_x_enno_change_re_0_change_requests_null</sys_update_name>
+            <sys_updated_by>amir.mushtaq</sys_updated_by>
+            <sys_updated_on>2026-06-24 10:23:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</application>
+        <file_path/>
+        <instance_id>1a201548ffb57690c80bf8e4fc4fd95a</instance_id>
+        <instance_name>ven08762</instance_name>
+        <name>sys_ui_related_x_enno_change_re_0_change_requests_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_enno_change_re_0_change_requests" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Change Requests - Default view" name="x_enno_change_re_0_change_requests" related_list="NULL" sys_domain="global" view="Default view">ee221e632fa943104046b44bcfa4e352</list_id><order_by/><position>0</position><related_list>task_activity.task</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>amir.mushtaq</sys_created_by><sys_created_on>2026-06-24 10:23:49</sys_created_on><sys_id>e2221e632fa943104046b44bcfa4e3b8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>amir.mushtaq</sys_updated_by><sys_updated_on>2026-06-24 10:23:49</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Change Requests - Default view</calculated_name><filter/><name>x_enno_change_re_0_change_requests</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>amir.mushtaq</sys_created_by><sys_created_on>2026-06-24 10:23:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ee221e632fa943104046b44bcfa4e352</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Requests - Default view</sys_name><sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package><sys_policy/><sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope><sys_update_name>sys_ui_related_x_enno_change_re_0_change_requests_null</sys_update_name><sys_updated_by>amir.mushtaq</sys_updated_by><sys_updated_on>2026-06-24 10:23:49</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-1882966317</payload_hash>
+        <record_name>Change Requests</record_name>
+        <reverted_from/>
+        <source>fc7df6572f6103904046b44bcfa4e32f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>amir.mushtaq</sys_created_by>
+        <sys_created_on>2026-06-24 10:23:49</sys_created_on>
+        <sys_id>2e221e632fa943104046b44bcfa4e3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef92851ba0000001</sys_recorded_at>
+        <sys_updated_by>amir.mushtaq</sys_updated_by>
+        <sys_updated_on>2026-06-24 10:23:49</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>6e221e63e1a943102ebfcf4ac11608ba</update_guid>
+        <update_guid_history>6e221e63e1a943102ebfcf4ac11608ba:-1882966317,0eb602a347a54310c574512c80ad21ff:733454144,25ddeb9fd1ad4b9066d4d4cae9049f7d:1880959481,f4cd2b9f42ad4b90f188b6574ae0a0ca:-1377012485,c43dfedfea254b9088c813ef21342e5c:2041540930</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mohammad.younis</sys_created_by>
+        <sys_created_on>2026-06-24 10:25:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>93dd1105d47e4d1f9da773d9bbcc20e1</sys_id>
+        <sys_metadata>ceb602a32fa543104046b44bcfa4e3f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Requests - Default view</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_parent display_value="Change Requests">cf11d5132fa50310ea050f0cbfa4e3a3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_scope_delete display_value="">74ba0c56e1be439489e10f2e0dc6a1d1</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_enno_change_re_0_change_requests_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_enno_change_re_0_change_requests_null">2e221e632fa943104046b44bcfa4e3bb</sys_update_version>
+        <sys_updated_by>mohammad.younis</sys_updated_by>
+        <sys_updated_on>2026-06-24 10:25:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

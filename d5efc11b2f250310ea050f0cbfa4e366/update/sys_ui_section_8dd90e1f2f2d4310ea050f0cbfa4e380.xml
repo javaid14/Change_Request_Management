@@ -1,44 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Requirements &amp; Links" section_id="8dd90e1f2f2d4310ea050f0cbfa4e380" sys_domain="global" table="x_enno_change_re_0_change_requests" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>brd_or_sow_reference</element>
+            <element>u_case</element>
             <position>0</position>
-            <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:08:56</sys_created_on>
-            <sys_id>51d94e1f2f2d4310ea050f0cbfa4e33f</sys_id>
+            <sys_created_by>irfan.wani</sys_created_by>
+            <sys_created_on>2026-06-24 19:12:21</sys_created_on>
+            <sys_id>702bc43f93ad8310ae6879b877373cb9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requirements &amp; Links" display_value="Requirements &amp; Links" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">8dd90e1f2f2d4310ea050f0cbfa4e380</sys_ui_section>
-            <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:08:56</sys_updated_on>
+            <sys_updated_by>irfan.wani</sys_updated_by>
+            <sys_updated_on>2026-06-24 19:12:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_incident</element>
+            <position>1</position>
+            <sys_created_by>irfan.wani</sys_created_by>
+            <sys_created_on>2026-06-24 19:12:21</sys_created_on>
+            <sys_id>382bc43f93ad8310ae6879b877373cba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requirements &amp; Links" display_value="Requirements &amp; Links" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">8dd90e1f2f2d4310ea050f0cbfa4e380</sys_ui_section>
+            <sys_updated_by>irfan.wani</sys_updated_by>
+            <sys_updated_on>2026-06-24 19:12:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request</element>
+            <position>2</position>
+            <sys_created_by>irfan.wani</sys_created_by>
+            <sys_created_on>2026-06-24 19:12:21</sys_created_on>
+            <sys_id>b42bc43f93ad8310ae6879b877373cbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requirements &amp; Links" display_value="Requirements &amp; Links" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">8dd90e1f2f2d4310ea050f0cbfa4e380</sys_ui_section>
+            <sys_updated_by>irfan.wani</sys_updated_by>
+            <sys_updated_on>2026-06-24 19:12:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
-            <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:08:56</sys_created_on>
-            <sys_id>ddd94e1f2f2d4310ea050f0cbfa4e33f</sys_id>
+            <position>3</position>
+            <sys_created_by>irfan.wani</sys_created_by>
+            <sys_created_on>2026-06-24 19:12:21</sys_created_on>
+            <sys_id>342bc43f93ad8310ae6879b877373cbc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requirements &amp; Links" display_value="Requirements &amp; Links" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">8dd90e1f2f2d4310ea050f0cbfa4e380</sys_ui_section>
-            <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:08:56</sys_updated_on>
+            <sys_updated_by>irfan.wani</sys_updated_by>
+            <sys_updated_on>2026-06-24 19:12:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dependencies</element>
-            <position>2</position>
-            <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-23 15:08:56</sys_created_on>
-            <sys_id>5dd94e1f2f2d4310ea050f0cbfa4e340</sys_id>
+            <element>parent_project</element>
+            <position>4</position>
+            <sys_created_by>irfan.wani</sys_created_by>
+            <sys_created_on>2026-06-24 19:12:21</sys_created_on>
+            <sys_id>b02bc43f93ad8310ae6879b877373cbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requirements &amp; Links" display_value="Requirements &amp; Links" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">8dd90e1f2f2d4310ea050f0cbfa4e380</sys_ui_section>
-            <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-23 15:08:56</sys_updated_on>
+            <sys_updated_by>irfan.wani</sys_updated_by>
+            <sys_updated_on>2026-06-24 19:12:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dependencies</element>
+            <position>5</position>
+            <sys_created_by>irfan.wani</sys_created_by>
+            <sys_created_on>2026-06-24 19:12:21</sys_created_on>
+            <sys_id>302bc43f93ad8310ae6879b877373cbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requirements &amp; Links" display_value="Requirements &amp; Links" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">8dd90e1f2f2d4310ea050f0cbfa4e380</sys_ui_section>
+            <sys_updated_by>irfan.wani</sys_updated_by>
+            <sys_updated_on>2026-06-24 19:12:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

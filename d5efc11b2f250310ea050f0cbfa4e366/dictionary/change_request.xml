@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true" audit="true" db_object_id="391a594893b13210ae6879b877373cb0" extends="task" label="Change Request" max_length="40" name="change_request" text_index="true" type="collection">
+        <element label="Build Change" max_length="32" name="x_enno_change_re_0_build_change" read_only="true" reference="x_enno_change_re_0_change_requests" type="reference"/>
+    </element>
+</database>

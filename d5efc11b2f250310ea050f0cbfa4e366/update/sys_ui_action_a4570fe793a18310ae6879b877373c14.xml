@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>!current.isNewRecord();</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Upload Document</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[// 1. Build the URL to a brand new, unsaved Document form (sys_id=-1 means "New Record")
+var url = 'dms_document.do?sys_id=-1';
+
+// 2. Auto-fill the Change Request field using a URL parameter
+url += '&sysparm_query=x_enno_change_re_0_build_change=' + current.getUniqueValue();
+
+// 3. Redirect the user to this new form
+action.setRedirectURL(url);
+
+// 4. Show the helpful message
+gs.addInfoMessage(
+    'Upload the Document for Build Change Request ' + 
+    current.getDisplayValue('number')
+);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>javaid.mir</sys_created_by>
+        <sys_created_on>2026-06-24 14:22:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4570fe793a18310ae6879b877373c14</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Upload Document</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_ui_action_a4570fe793a18310ae6879b877373c14</sys_update_name>
+        <sys_updated_by>faizan.maqbool</sys_updated_by>
+        <sys_updated_on>2026-06-24 19:52:00</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

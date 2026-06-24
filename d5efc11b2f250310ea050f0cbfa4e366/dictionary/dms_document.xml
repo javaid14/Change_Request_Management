@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasListeners=true,no_attachment=true" db_object_id="73bae61f93250b90ae6879b877373c3d" label="Document" max_length="40" name="dms_document" type="collection">
+        <element label="Build Change" max_length="32" name="x_enno_change_re_0_build_change" reference="x_enno_change_re_0_change_requests" type="reference"/>
+    </element>
+</database>

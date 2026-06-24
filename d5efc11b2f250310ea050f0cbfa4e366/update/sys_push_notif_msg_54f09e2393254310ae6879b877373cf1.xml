@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Change Request: ${number} state changed</message_string>
+        <name>CR Assigned</name>
+        <push_app/>
+        <push_message_content/>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-24 10:19:50</sys_created_on>
+        <sys_id>54f09e2393254310ae6879b877373cf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CR Assigned</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_push_notif_msg_54f09e2393254310ae6879b877373cf1</sys_update_name>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-24 10:19:50</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

@@ -20,95 +20,19 @@
             <element>uat_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>In UAT</label>
+            <label>Not started</label>
             <language>en</language>
             <name>x_enno_change_re_0_change_requests</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>aamir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-23 12:29:53</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>raiees.masood</sys_updated_by>
-            <sys_updated_on>2026-06-23 14:57:37</sys_updated_on>
-            <value>1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>uat_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Pending sign off</label>
-            <language>en</language>
-            <name>x_enno_change_re_0_change_requests</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>aamir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-23 12:30:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>raiees.masood</sys_updated_by>
-            <sys_updated_on>2026-06-23 14:57:42</sys_updated_on>
-            <value>2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>uat_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Issues found</label>
-            <language>en</language>
-            <name>x_enno_change_re_0_change_requests</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>aamir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-23 12:30:05</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>raiees.masood</sys_updated_by>
-            <sys_updated_on>2026-06-23 14:57:46</sys_updated_on>
-            <value>3</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>uat_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Not started</label>
-            <language>en</language>
-            <name>x_enno_change_re_0_change_requests</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>aamir.mushtaq</sys_created_by>
             <sys_created_on>2026-06-23 12:29:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>raiees.masood</sys_updated_by>
-            <sys_updated_on>2026-06-23 14:57:50</sys_updated_on>
-            <value>4</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>uat_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Passed and signed off</label>
-            <language>en</language>
-            <name>x_enno_change_re_0_change_requests</name>
-            <sequence>5</sequence>
-            <synonyms/>
-            <sys_created_by>aamir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-23 12:30:38</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>raiees.masood</sys_updated_by>
-            <sys_updated_on>2026-06-23 14:57:54</sys_updated_on>
-            <value>5</value>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 17:24:00</sys_updated_on>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -118,15 +42,91 @@
             <label>Ready for UAT</label>
             <language>en</language>
             <name>x_enno_change_re_0_change_requests</name>
-            <sequence>6</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>aamir.mushtaq</sys_created_by>
             <sys_created_on>2026-06-23 12:29:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>raiees.masood</sys_updated_by>
-            <sys_updated_on>2026-06-23 14:57:58</sys_updated_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 17:24:26</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>uat_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In UAT</label>
+            <language>en</language>
+            <name>x_enno_change_re_0_change_requests</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>aamir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-23 12:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 17:24:06</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>uat_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issues found</label>
+            <language>en</language>
+            <name>x_enno_change_re_0_change_requests</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>aamir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-23 12:30:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 17:24:21</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>uat_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending sign off</label>
+            <language>en</language>
+            <name>x_enno_change_re_0_change_requests</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>aamir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-23 12:30:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 17:24:12</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>uat_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Passed and signed off</label>
+            <language>en</language>
+            <name>x_enno_change_re_0_change_requests</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>aamir.mushtaq</sys_created_by>
+            <sys_created_on>2026-06-23 12:30:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>javaid.mir</sys_updated_by>
+            <sys_updated_on>2026-06-24 17:24:16</sys_updated_on>
             <value>6</value>
         </sys_choice>
     </sys_choice>

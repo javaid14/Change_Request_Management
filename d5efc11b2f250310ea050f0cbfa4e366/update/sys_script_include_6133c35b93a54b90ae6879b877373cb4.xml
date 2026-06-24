@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_enno_change_re_0.GroupMemberUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GroupMemberUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GroupMemberUtils = Class.create();
+GroupMemberUtils.prototype = {
+
+    initialize: function() {
+    },
+
+    getUsersFromGroup: function(groupId) {
+
+        var users = [];
+
+        if (!groupId)
+            return '';
+
+        var gr = new GlideRecord('sys_user_grmember');
+        gr.addQuery('group', groupId);
+        gr.query();
+
+        while (gr.next()) {
+            users.push(gr.user.toString());
+        }
+
+        return users.join(',');
+    },
+
+    type: 'GroupMemberUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-23 19:21:39</sys_created_on>
+        <sys_id>6133c35b93a54b90ae6879b877373cb4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GroupMemberUtils</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_script_include_6133c35b93a54b90ae6879b877373cb4</sys_update_name>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-23 19:58:58</sys_updated_on>
+    </sys_script_include>
+</record_update>
