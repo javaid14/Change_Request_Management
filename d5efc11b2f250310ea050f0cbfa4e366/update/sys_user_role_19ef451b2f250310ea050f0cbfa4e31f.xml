@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>CR Agent Role</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <federated_id>Crqm745mtALke5/qvYKVA3dKgrHr2ftR6XswPDwnma8=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>

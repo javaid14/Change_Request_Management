@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CR State move 2 to 3</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+
+    // Only run when state is Classification
+    if (g_form.getValue('cr_state') != '2')
+        return true;
+
+    var product = g_form.getValue('product');
+    var category = g_form.getValue('cr_category');
+    var commercial = g_form.getValue('commercial_classification');
+    var group = g_form.getValue('assignment_group');
+
+    // Debugging
+    console.log('Product = ' + product);
+    console.log('Category = ' + category);
+    console.log('Commercial = ' + commercial);
+    console.log('Group = ' + group);
+
+    // All mandatory fields completed
+    if (product && category && commercial && group) {
+
+        g_form.setValue('cr_state', '3');
+
+        g_form.addInfoMessage(
+            'State automatically moved to Impact Assessment.'
+        );
+    }
+
+    return true;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-25 08:29:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d114b3793a90710ae6879b877373ce1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CR State move 2 to 3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_script_client_2d114b3793a90710ae6879b877373ce1</sys_update_name>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-25 08:36:02</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

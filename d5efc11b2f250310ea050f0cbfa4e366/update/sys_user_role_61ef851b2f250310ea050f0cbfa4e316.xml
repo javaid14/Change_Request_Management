@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>CR User Role</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <federated_id>h4NTnJNz+/VjCxNUq4FVuenyIxD7O1extEc2JIp06Qw=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>

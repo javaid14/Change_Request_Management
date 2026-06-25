@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>cr_category</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aamir.mushtaq</sys_created_by>
+        <sys_created_on>2026-06-23 15:06:26</sys_created_on>
+        <sys_id>89394ed39321431067fef3e43603d656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cr_category</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_ui_policy_action_89394ed39321431067fef3e43603d656</sys_update_name>
+        <sys_updated_by>aamir.mushtaq</sys_updated_by>
+        <sys_updated_on>2026-06-23 15:06:26</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <ui_policy display_value="BA Mandatory During Classification">6dc882539321431067fef3e43603d6dd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=89394ed39321431067fef3e43603d656"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</application>
+        <file_path/>
+        <instance_id>1a201548ffb57690c80bf8e4fc4fd95a</instance_id>
+        <instance_name>ven08762</instance_name>
+        <name>sys_ui_policy_action_89394ed39321431067fef3e43603d656</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>cr_category</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aamir.mushtaq</sys_created_by>
+        <sys_created_on>2026-06-23 15:06:26</sys_created_on>
+        <sys_id>89394ed39321431067fef3e43603d656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cr_category</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_ui_policy_action_89394ed39321431067fef3e43603d656</sys_update_name>
+        <sys_updated_by>aamir.mushtaq</sys_updated_by>
+        <sys_updated_on>2026-06-23 15:06:26</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <ui_policy display_value="BA Mandatory During Classification">6dc882539321431067fef3e43603d6dd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=89394ed39321431067fef3e43603d656"/>
+</record_update>]]></payload>
+        <payload_hash>-1936677102</payload_hash>
+        <record_name>cr_category</record_name>
+        <reverted_from/>
+        <source>842db2df93254b90ae6879b877373c76</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>javaid.mir</sys_created_by>
+        <sys_created_on>2026-06-23 18:53:18</sys_created_on>
+        <sys_id>0c3dfedf93254b90ae6879b877373c35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef5d467980000001</sys_recorded_at>
+        <sys_updated_by>javaid.mir</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:53:18</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c83dfedf91254b90ba2e36c5a00b4635</update_guid>
+        <update_guid_history>c83dfedf91254b90ba2e36c5a00b4635:-1936677102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aamir.mushtaq</sys_created_by>
+        <sys_created_on>2026-06-25 08:50:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>3ee62033b79442b0ae07525abe101040</sys_id>
+        <sys_metadata>89394ed39321431067fef3e43603d656</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cr_category</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_parent display_value="BA Mandatory During Classification">6dc882539321431067fef3e43603d6dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_scope_delete display_value="">74ba0c56e1be439489e10f2e0dc6a1d1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_89394ed39321431067fef3e43603d656</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_89394ed39321431067fef3e43603d656">0c3dfedf93254b90ae6879b877373c35</sys_update_version>
+        <sys_updated_by>aamir.mushtaq</sys_updated_by>
+        <sys_updated_on>2026-06-25 08:50:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

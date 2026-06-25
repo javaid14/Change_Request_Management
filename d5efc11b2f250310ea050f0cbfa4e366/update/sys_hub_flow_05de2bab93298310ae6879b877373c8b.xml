@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2941000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05de2bab93298310ae6879b877373c8b</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Handle the Classification state</sys_name>
         <sys_overrides/>
         <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
         <sys_update_name>sys_hub_flow_05de2bab93298310ae6879b877373c8b</sys_update_name>
         <sys_updated_by>javaid.mir</sys_updated_by>
-        <sys_updated_on>2026-06-24 17:57:43</sys_updated_on>
+        <sys_updated_on>2026-06-25 05:46:03</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>cc1ab363932d8310ae6879b877373c72</version_record>
+        <version_record>083c1e3b93a10710ae6879b877373cc4</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=05de2bab93298310ae6879b877373c8b"/>
     <sys_variable_value action="delete_multiple" query="document_key=05de2bab93298310ae6879b877373c8b"/>
@@ -82,16 +82,16 @@
         <trigger_definition/>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <active>false</active>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
         <identifier>05de2bab93298310ae6879b877373c8b</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>javaid.mir</sys_created_by>
         <sys_created_on>2026-06-24 17:57:43</sys_created_on>
         <sys_id>630a7363932d8310ae6879b877373ce0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>javaid.mir</sys_updated_by>
-        <sys_updated_on>2026-06-24 17:57:43</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-25 06:16:55</sys_updated_on>
         <trigger display_value="">670a7363932d8310ae6879b877373cdf</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=05de2bab93298310ae6879b877373c8b^sys_idNOT IN630a7363932d8310ae6879b877373ce0"/>

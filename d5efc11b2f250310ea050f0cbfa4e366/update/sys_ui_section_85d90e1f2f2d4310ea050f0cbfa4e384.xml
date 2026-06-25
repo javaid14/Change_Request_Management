@@ -3,84 +3,98 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>aging</element>
             <position>0</position>
-            <sys_created_by>amir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-24 17:34:10</sys_created_on>
-            <sys_id>a6a4fbaf2f6d83104046b44bcfa4e302</sys_id>
+            <sys_created_by>raiees.masood</sys_created_by>
+            <sys_created_on>2026-06-25 08:57:56</sys_created_on>
+            <sys_id>2a188fff93e90710ae6879b877373cda</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Closure" display_value="Closure" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">85d90e1f2f2d4310ea050f0cbfa4e384</sys_ui_section>
-            <sys_updated_by>amir.mushtaq</sys_updated_by>
-            <sys_updated_on>2026-06-24 17:34:10</sys_updated_on>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-25 08:57:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>close_notes</element>
             <position>1</position>
-            <sys_created_by>amir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-24 17:34:10</sys_created_on>
-            <sys_id>26a4fbaf2f6d83104046b44bcfa4e303</sys_id>
+            <sys_created_by>raiees.masood</sys_created_by>
+            <sys_created_on>2026-06-25 08:57:56</sys_created_on>
+            <sys_id>a6188fff93e90710ae6879b877373cdb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Closure" display_value="Closure" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">85d90e1f2f2d4310ea050f0cbfa4e384</sys_ui_section>
-            <sys_updated_by>amir.mushtaq</sys_updated_by>
-            <sys_updated_on>2026-06-24 17:34:10</sys_updated_on>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-25 08:57:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>issues_found</element>
             <position>2</position>
-            <sys_created_by>amir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-24 17:34:10</sys_created_on>
-            <sys_id>a2a4fbaf2f6d83104046b44bcfa4e304</sys_id>
+            <sys_created_by>raiees.masood</sys_created_by>
+            <sys_created_on>2026-06-25 08:57:56</sys_created_on>
+            <sys_id>26188fff93e90710ae6879b877373cdc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Closure" display_value="Closure" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">85d90e1f2f2d4310ea050f0cbfa4e384</sys_ui_section>
-            <sys_updated_by>amir.mushtaq</sys_updated_by>
-            <sys_updated_on>2026-06-24 17:34:10</sys_updated_on>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-25 08:57:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>3</position>
-            <sys_created_by>amir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-24 17:34:10</sys_created_on>
-            <sys_id>22a4fbaf2f6d83104046b44bcfa4e305</sys_id>
+            <sys_created_by>raiees.masood</sys_created_by>
+            <sys_created_on>2026-06-25 08:57:56</sys_created_on>
+            <sys_id>a2188fff93e90710ae6879b877373cdd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Closure" display_value="Closure" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">85d90e1f2f2d4310ea050f0cbfa4e384</sys_ui_section>
-            <sys_updated_by>amir.mushtaq</sys_updated_by>
-            <sys_updated_on>2026-06-24 17:34:10</sys_updated_on>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-25 08:57:56</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>blocked</element>
             <position>4</position>
-            <sys_created_by>amir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-24 17:34:10</sys_created_on>
-            <sys_id>aea4fbaf2f6d83104046b44bcfa4e305</sys_id>
+            <sys_created_by>raiees.masood</sys_created_by>
+            <sys_created_on>2026-06-25 08:57:56</sys_created_on>
+            <sys_id>22188fff93e90710ae6879b877373cde</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Closure" display_value="Closure" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">85d90e1f2f2d4310ea050f0cbfa4e384</sys_ui_section>
-            <sys_updated_by>amir.mushtaq</sys_updated_by>
-            <sys_updated_on>2026-06-24 17:34:10</sys_updated_on>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-25 08:57:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>blocked_reason</element>
             <position>5</position>
-            <sys_created_by>amir.mushtaq</sys_created_by>
-            <sys_created_on>2026-06-24 17:34:10</sys_created_on>
-            <sys_id>2ea4fbaf2f6d83104046b44bcfa4e306</sys_id>
+            <sys_created_by>raiees.masood</sys_created_by>
+            <sys_created_on>2026-06-25 08:57:56</sys_created_on>
+            <sys_id>ae188fff93e90710ae6879b877373cde</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Closure" display_value="Closure" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">85d90e1f2f2d4310ea050f0cbfa4e384</sys_ui_section>
-            <sys_updated_by>amir.mushtaq</sys_updated_by>
-            <sys_updated_on>2026-06-24 17:34:10</sys_updated_on>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-25 08:57:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_known_issues_accepted</element>
+            <position>6</position>
+            <sys_created_by>raiees.masood</sys_created_by>
+            <sys_created_on>2026-06-25 08:57:57</sys_created_on>
+            <sys_id>e2188fff93e90710ae6879b877373cec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure" display_value="Closure" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">85d90e1f2f2d4310ea050f0cbfa4e384</sys_ui_section>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-25 08:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_enno_change_re_0_change_requests</name>
+        <name>x_enno_change_re_0_routing_rules</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
-        <sys_created_by>javaid.mir</sys_created_by>
-        <sys_created_on>2026-06-23 11:01:07</sys_created_on>
-        <sys_id>1b1119132fa50310ea050f0cbfa4e37c</sys_id>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-23 19:00:32</sys_created_on>
+        <sys_id>b5de369793654b90ae6879b877373cd2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_enno_change_re_0_change_requests</sys_name>
+        <sys_name>x_enno_change_re_0_routing_rules</sys_name>
         <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
-        <sys_update_name>ua_table_licensing_config_1b1119132fa50310ea050f0cbfa4e37c</sys_update_name>
-        <sys_updated_by>javaid.mir</sys_updated_by>
-        <sys_updated_on>2026-06-23 11:01:07</sys_updated_on>
+        <sys_update_name>ua_table_licensing_config_b5de369793654b90ae6879b877373cd2</sys_update_name>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-23 19:00:32</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

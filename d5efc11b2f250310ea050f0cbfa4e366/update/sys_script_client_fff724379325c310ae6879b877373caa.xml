@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>ba</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CR BA</name>
+        <order/>
+        <script><![CDATA[function onSubmit(control, oldValue, newValue, isLoading) {
+
+    if (isLoading || newValue == '')
+        return;
+
+    if (g_form.getValue('cr_state') == '1') {
+
+        g_form.setValue('cr_state', '2');
+
+        g_form.addInfoMessage(
+            'BA assigned. CR State automatically moved to Classification.'
+        );
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-24 21:20:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fff724379325c310ae6879b877373caa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CR BA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_script_client_fff724379325c310ae6879b877373caa</sys_update_name>
+        <sys_updated_by>javaid.mir</sys_updated_by>
+        <sys_updated_on>2026-06-25 09:58:32</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

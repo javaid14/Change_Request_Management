@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Managed documents" source="com.snc.document_management">3dbaaadb93250b90ae6879b877373c67</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>javaid.mir</sys_created_by>
+        <sys_created_on>2026-06-24 14:15:30</sys_created_on>
+        <sys_id>203747e793a18310ae6879b877373c18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_updated_by>javaid.mir</sys_updated_by>
+        <sys_updated_on>2026-06-24 14:15:30</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

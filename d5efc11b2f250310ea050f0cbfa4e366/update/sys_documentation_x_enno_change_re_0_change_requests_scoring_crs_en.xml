@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="pending_e_sign" label="Pending E-Sign " language="en" table="x_enno_change_re_0_change_requests">
+    <sys_documentation element="scoring_crs" label="Scoring CRs" language="en" table="x_enno_change_re_0_change_requests">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>pending_e_sign</element>
+            <element>scoring_crs</element>
             <help/>
             <hint/>
-            <label>Pending E-Sign </label>
+            <label>Scoring CRs</label>
             <language>en</language>
             <name>x_enno_change_re_0_change_requests</name>
-            <plural>Pending E-Sign s</plural>
+            <plural>Scoring CRs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>javaid.mir</sys_created_by>
-            <sys_created_on>2026-06-24 13:49:25</sys_created_on>
+            <sys_created_on>2026-06-25 05:57:52</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Pending E-Sign</sys_name>
+            <sys_name>Scoring CRs</sys_name>
             <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
             <sys_policy/>
             <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
-            <sys_update_name>sys_documentation_x_enno_change_re_0_change_requests_pending_e_sign_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_enno_change_re_0_change_requests_scoring_crs_en</sys_update_name>
             <sys_updated_by>javaid.mir</sys_updated_by>
-            <sys_updated_on>2026-06-24 13:49:25</sys_updated_on>
+            <sys_updated_on>2026-06-25 05:57:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

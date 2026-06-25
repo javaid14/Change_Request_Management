@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>commercial_classification</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aamir.mushtaq</sys_created_by>
+        <sys_created_on>2026-06-23 15:07:05</sys_created_on>
+        <sys_id>395986179321431067fef3e43603d642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>commercial_classification</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_ui_policy_action_395986179321431067fef3e43603d642</sys_update_name>
+        <sys_updated_by>aamir.mushtaq</sys_updated_by>
+        <sys_updated_on>2026-06-23 15:07:05</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <ui_policy display_value="BA Mandatory During Classification">6dc882539321431067fef3e43603d6dd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=395986179321431067fef3e43603d642"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</application>
+        <file_path/>
+        <instance_id>1a201548ffb57690c80bf8e4fc4fd95a</instance_id>
+        <instance_name>ven08762</instance_name>
+        <name>sys_ui_policy_action_395986179321431067fef3e43603d642</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>commercial_classification</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aamir.mushtaq</sys_created_by>
+        <sys_created_on>2026-06-23 15:07:05</sys_created_on>
+        <sys_id>395986179321431067fef3e43603d642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>commercial_classification</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_ui_policy_action_395986179321431067fef3e43603d642</sys_update_name>
+        <sys_updated_by>aamir.mushtaq</sys_updated_by>
+        <sys_updated_on>2026-06-23 15:07:05</sys_updated_on>
+        <table>x_enno_change_re_0_change_requests</table>
+        <ui_policy display_value="BA Mandatory During Classification">6dc882539321431067fef3e43603d6dd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=395986179321431067fef3e43603d642"/>
+</record_update>]]></payload>
+        <payload_hash>-2013152398</payload_hash>
+        <record_name>commercial_classification</record_name>
+        <reverted_from/>
+        <source>842db2df93254b90ae6879b877373c76</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>javaid.mir</sys_created_by>
+        <sys_created_on>2026-06-23 18:53:18</sys_created_on>
+        <sys_id>c03dfedf93254b90ae6879b877373c21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef5d467690000001</sys_recorded_at>
+        <sys_updated_by>javaid.mir</sys_updated_by>
+        <sys_updated_on>2026-06-23 18:53:18</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>803dfedfc9254b90c659d566f55aa321</update_guid>
+        <update_guid_history>803dfedfc9254b90c659d566f55aa321:-2013152398</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>aamir.mushtaq</sys_created_by>
+        <sys_created_on>2026-06-25 08:50:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>27e299d460cb4b408c02cf1d59329000</sys_id>
+        <sys_metadata>395986179321431067fef3e43603d642</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>commercial_classification</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_parent display_value="BA Mandatory During Classification">6dc882539321431067fef3e43603d6dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_scope_delete display_value="">74ba0c56e1be439489e10f2e0dc6a1d1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_395986179321431067fef3e43603d642</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_395986179321431067fef3e43603d642">c03dfedf93254b90ae6879b877373c21</sys_update_version>
+        <sys_updated_by>aamir.mushtaq</sys_updated_by>
+        <sys_updated_on>2026-06-25 08:50:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

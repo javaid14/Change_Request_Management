@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="x_enno_change_re_0_build_change" table="dms_document">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="scoring_crs" table="x_enno_change_re_0_change_requests">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Build Change</column_label>
+        <column_label>Scoring CRs</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>x_enno_change_re_0_build_change</element>
+        <element>scoring_crs</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>dms_document</name>
+        <max_length>40</max_length>
+        <name>x_enno_change_re_0_change_requests</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_enno_change_re_0_change_requests">x_enno_change_re_0_change_requests</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>javaid.mir</sys_created_by>
-        <sys_created_on>2026-06-24 14:15:30</sys_created_on>
-        <sys_name>Build Change</sys_name>
+        <sys_created_on>2026-06-25 05:57:52</sys_created_on>
+        <sys_name>Scoring CRs</sys_name>
         <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
         <sys_policy/>
         <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
-        <sys_update_name>sys_dictionary_dms_document_x_enno_change_re_0_build_change</sys_update_name>
+        <sys_update_name>sys_dictionary_x_enno_change_re_0_change_requests_scoring_crs</sys_update_name>
         <sys_updated_by>javaid.mir</sys_updated_by>
-        <sys_updated_on>2026-06-24 14:15:30</sys_updated_on>
+        <sys_updated_on>2026-06-25 05:57:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

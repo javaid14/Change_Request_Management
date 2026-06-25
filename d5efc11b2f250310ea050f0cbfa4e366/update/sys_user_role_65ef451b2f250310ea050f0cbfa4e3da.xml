@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>CR Manager Role</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <federated_id>JarRjivTun90NBOA2LioRcj/atv34sIJrxTYCojMlBc=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>

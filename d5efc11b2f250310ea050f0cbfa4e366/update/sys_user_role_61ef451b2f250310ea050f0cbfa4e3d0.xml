@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>CR Aprrover Role</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <federated_id>oBpEBhS+KFhKwteK6108omq2dsp6QL/GeuwuKFFI3X4=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>

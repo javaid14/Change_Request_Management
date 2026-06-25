@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_enno_change_re_0_change_requests</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_enno_change_re_0_change_requests">state=^EQ<item display_value="Classification" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>CR State change on document upload</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+ 
+    gs.info('=== CR State Rule Started ===');
+    gs.info('CR Number: ' + current.number);
+    gs.info('CR Sys ID: ' + current.getUniqueValue());
+    gs.info('Current State: ' + current.cr_state);
+ 
+    // Only process Classification
+    if (current.cr_state != '2') {
+        gs.info('Not in Classification state');
+        return;
+    }
+ 
+    var doc = new GlideRecord('dms_document');
+ 
+    doc.addQuery(
+        'x_enno_change_re_0_build_change',
+        current.getUniqueValue()
+    );
+ 
+    doc.query();
+ 
+    gs.info('Documents Found: ' + doc.getRowCount());
+ 
+    if (doc.next()) {
+ 
+        gs.info('Document Found: ' + doc.getDisplayValue());
+ 
+        // Move to Impact Assessment
+        current.cr_state = '3';
+ 
+        gs.info('State changed to Impact Assessment');
+    }
+ 
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-25 05:29:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df189efb93610710ae6879b877373c27</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>CR State change on document upload</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_update_name>sys_script_df189efb93610710ae6879b877373c27</sys_update_name>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-25 07:58:18</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=df189efb93610710ae6879b877373c27"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</application>
+        <file_path/>
+        <instance_id>1a201548ffb57690c80bf8e4fc4fd95a</instance_id>
+        <instance_name>ven08762</instance_name>
+        <name>sys_script_df189efb93610710ae6879b877373c27</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_enno_change_re_0_change_requests&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_enno_change_re_0_change_requests"&gt;state=^EQ&lt;item display_value="Classification" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;CR State change on document upload&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous) {
+ 
+    gs.info('=== CR State Rule Started ===');
+    gs.info('CR Number: ' + current.number);
+    gs.info('CR Sys ID: ' + current.getUniqueValue());
+    gs.info('Current State: ' + current.cr_state);
+ 
+    // Only process Classification
+    if (current.cr_state != '2') {
+        gs.info('Not in Classification state');
+        return;
+    }
+ 
+    var doc = new GlideRecord('dms_document');
+ 
+    doc.addQuery(
+        'x_enno_change_re_0_build_change',
+        current.getUniqueValue()
+    );
+ 
+    doc.query();
+ 
+    gs.info('Documents Found: ' + doc.getRowCount());
+ 
+    if (doc.next()) {
+ 
+        gs.info('Document Found: ' + doc.getDisplayValue());
+ 
+        // Move to Impact Assessment
+        current.cr_state = '3';
+ 
+        gs.info('State changed to Impact Assessment');
+    }
+ 
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;raiees.masood&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-25 05:29:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;df189efb93610710ae6879b877373c27&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;CR State change on document upload&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Change Request Management" source="x_enno_change_re_0"&gt;d5efc11b2f250310ea050f0cbfa4e366&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Change Request Management"&gt;d5efc11b2f250310ea050f0cbfa4e366&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_df189efb93610710ae6879b877373c27&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;raiees.masood&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-25 07:58:18&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=df189efb93610710ae6879b877373c27"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1065181699</payload_hash>
+        <record_name>CR State change on document upload</record_name>
+        <reverted_from/>
+        <source>cd3554f39361c310ae6879b877373c30</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-25 07:58:18</sys_created_on>
+        <sys_id>417afeff93290710ae6879b877373c9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19efdc975370000001</sys_recorded_at>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-25 07:58:18</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>f47afeffc4290710969cb3f89e705998</update_guid>
+        <update_guid_history>f47afeffc4290710969cb3f89e705998:-1065181699,e83a32fff22907102720b7585b3fa284:105730829,b854be7b0ae5071050e3a1aecce63c75:2025893820,4952feb3dbe50710406612a0759f42ad:-1482838382,c6a13a336fe50710ece65d07689cc602:885212602,f27e6a770ca5071058793042aa242779:-874938740,096ee27720a50710f3e39174665e5cb2:509898490,2778de3f896107106c4607157c55f76d:1645676078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>raiees.masood</sys_created_by>
+        <sys_created_on>2026-06-25 08:02:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>06910029e9cb47a8b2a595a2bb161a40</sys_id>
+        <sys_metadata>df189efb93610710ae6879b877373c27</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CR State change on document upload</sys_name>
+        <sys_package display_value="Change Request Management" source="x_enno_change_re_0">d5efc11b2f250310ea050f0cbfa4e366</sys_package>
+        <sys_parent display_value="Change Requests">cf11d5132fa50310ea050f0cbfa4e3a3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Change Request Management">d5efc11b2f250310ea050f0cbfa4e366</sys_scope>
+        <sys_scope_delete display_value="">74ba0c56e1be439489e10f2e0dc6a1d1</sys_scope_delete>
+        <sys_update_name>sys_script_df189efb93610710ae6879b877373c27</sys_update_name>
+        <sys_update_version display_value="sys_script_df189efb93610710ae6879b877373c27">417afeff93290710ae6879b877373c9a</sys_update_version>
+        <sys_updated_by>raiees.masood</sys_updated_by>
+        <sys_updated_on>2026-06-25 08:02:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

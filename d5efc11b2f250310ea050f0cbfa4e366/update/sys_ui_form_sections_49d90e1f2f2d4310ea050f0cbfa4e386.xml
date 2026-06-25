@@ -84,6 +84,20 @@
             <sys_updated_by>javaid.mir</sys_updated_by>
             <sys_updated_on>2026-06-23 15:08:56</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>raiees.masood</sys_created_by>
+            <sys_created_on>2026-06-25 08:48:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>900647f793e90710ae6879b877373c9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_enno_change_re_0_change_requests" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">49d90e1f2f2d4310ea050f0cbfa4e386</sys_ui_form>
+            <sys_ui_section caption="Activity Stream" display_value="Activity Stream" name="x_enno_change_re_0_change_requests" sys_domain="global" view="Default view">580647f793e90710ae6879b877373c54</sys_ui_section>
+            <sys_updated_by>raiees.masood</sys_updated_by>
+            <sys_updated_on>2026-06-25 08:48:47</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_enno_change_re_0_change_requests</name>
             <roles/>

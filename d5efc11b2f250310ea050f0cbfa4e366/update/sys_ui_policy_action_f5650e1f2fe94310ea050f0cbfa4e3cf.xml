@@ -24,5 +24,4 @@
         <value_action>ignore</value_action>
         <visible>ignore</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=f5650e1f2fe94310ea050f0cbfa4e3cf"/>
 </record_update>

@@ -19,7 +19,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">36783f422f523210ea050f0cbfa4e342</super_class>
+        <super_class display_value="Task" name="task">3716990893313210ae6879b877373cbb</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>javaid.mir</sys_created_by>
         <sys_created_on>2026-06-23 11:01:06</sys_created_on>
